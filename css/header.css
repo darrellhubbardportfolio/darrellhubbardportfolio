@@ -1,0 +1,53 @@
+header {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    position: relative !important;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+#header-profile-picture {
+    position: absolute !important;
+    bottom: -50px;
+    /* left: 0; */
+    z-index: 0;
+    overflow: hidden !important;
+}
+
+#header-profile-picture> img {
+
+}
+
+header> article {
+    display: block;
+    padding: 20px;
+    z-index: 1;
+}
+
+@media screen and ( max-width: 576px) {
+    header {
+        max-height: 325px;
+    }
+    header> :nth-child(1) {
+        margin: 0 auto !important;
+        z-index: 2 !important;
+        background-color: transparent;
+    }
+    header> :nth-child(1)> img {
+        max-width: 250px;
+        max-height: 250px;
+        margin: 0 auto !important;
+        margin-top: 100px !important;
+        z-index: 2 !important;
+        background-color: transparent;
+    }
+    header> article {
+        text-align: center !important;
+    }
+    header> article> * {
+        text-align: center !important;
+    }
+}

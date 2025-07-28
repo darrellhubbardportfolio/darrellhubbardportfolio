@@ -1,0 +1,32 @@
+#skills-section {
+    display: block;
+    background-color: darkred;
+}
+
+#skill-section-header-text {
+    color: white !important;
+}
+
+#skill-section-p-text {
+    color: white !important;
+}
+
+.skills-bucket-container> article {
+    border: 3px solid red !important;
+    background-color: rgba(255, 255, 255, 0.70);
+}
+
+.skills-bucket  {
+    /* background-color: white; */
+}
+
+#about-me-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+#about-me-section> :nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
